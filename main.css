@@ -139,3 +139,17 @@ footer {
     color:#f6f6f6;
     padding: 16px 0;
 }
+.map-section #map {
+    width: 100%; /* Ajusta a largura para 100% do contêiner */
+    max-width: 600px; /* Largura máxima */
+    height: 100px; /* Altura fixa */
+}
+
+    video {
+        border: 2px solid #182c61; /* Cor e espessura da borda */
+        border-radius: 10px; /* Cantos arredondados */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra da borda */
+        margin: 20px auto; /* Margem superior e inferior */
+        margin-left: 40px; /* Ajuste este valor para mover o vídeo para a direita */
+        display: block; /* Faz com que o vídeo seja um bloco para centralização */
+    }

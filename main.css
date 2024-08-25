@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color:#f6f6f6
+}
+header h1{
+    font-family: "Roboto", sans-serif
+}
+section h3,
+section h2{
+    font-weight: 700;
+    font-family: "Bungee", 
+}
+body, input, textarea {
+    font-family: "Lora", serif;
+    font-style:oblique;
+}
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    display:inline-block;
+    list-style: none;
+    justify-content:space-between;
+    text-decoration:none
+}
+header nav ul {
+    display:inline-block;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+nav ul li a {
+    margin-left: 20px;
+    color:#f6f6f6
+}
+img {
+    display:block;
+    margin: 50% left;
+}
+.text-container {
+    max-width: 1260px; /* Alinha com o container do header */
+    width: 100%;
+    margin: 20px auto 0; /* Adiciona margem superior e centraliza horizontalmente */
+    align-items:flex-start; /* Alinha verticalmente */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    display: flex;  
+}
+.text-container img {
+    max-width: 100%; /* Mantém a imagem responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que o margin funcione */
+    margin-bottom: 50px;
+}
+.text-container div {
+    max-width: 100%; /* Garante que o texto não ultrapasse a largura */
+}
+.text-container h2 {
+    margin-bottom: 10px; /* Espaçamento entre o título e o parágrafo */
+}
+.brands-list img {
+    height: 24px;
+}
+.brands-list li {
+    display:inline-block;
+    margin-right: 4px;
+}
+form button
+section h3 {
+    font-size: 500;
+    font-size: 25px;
+    font-family: "Bungee",;
+    margin-bottom: 16px;
+    font-weight: 5000 px;  
+
+}
+#contact .container{
+    display:block
+}
+#contact-methods{
+    display:flex;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;;
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 500;
+    font-size: 20px;
+    font-family: "Bungee",;
+    margin-bottom: 16px;
+    font-weight: 5000 px; 
+    margin-bottom: 16px;
+}
+#Contact .container {
+    align-items: flex-start; /* Garante que os elementos fiquem alinhados no topo */
+}
+form button {
+    background-color: #182c61;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+.contact-methods form {
+    margin-top: 20px; /* Ajuste o valor para determinar a quantidade de espaço */
+}
+form button:hover {
+    background-color: #3d569a;
+}
+form textarea{
+    height: 190px;
+}
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+footer {
+    background-color: #182c61;
+    color:#f6f6f6;
+    padding: 16px 0;
+}
